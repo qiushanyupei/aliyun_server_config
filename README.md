@@ -3,6 +3,7 @@
 # 后端需要配置对应语言的虚拟环境
 # python方法：python3 -m venv venv
 # 下python包要在虚拟环境里面配
+# pip install --default-timeout=100 -r requirements.txt
 # 前端需要转成静态文件
 # 创建的反向代理站点配置文件路径：/www/server/panel/vhost/nginx
 # 配置反向代理时，前端静态文件的配置方法和后端动态进程配置的方法不同
