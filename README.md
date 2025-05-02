@@ -1,7 +1,8 @@
 # 以下操作都是在宝塔面板中完成，远程登陆后需要先下载
 # 每次重启云服务器，公网ip可能有变化，需要修改反向代理设置
 # 后端需要配置对应语言的虚拟环境
-# python方法：python3 -m venv venv
+# python方法：
+# apt install python3.10-venv python3 -m venv venv
 # 下python包要在虚拟环境里面配
 # pip install --default-timeout=100 -r requirements.txt
 # 前端需要转成静态文件
