@@ -5,6 +5,7 @@
 # apt install python3.10-venv python3 -m venv venv
 # 下python包要在虚拟环境里面配
 # pip install --default-timeout=100 -r requirements.txt
+# pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple --default-timeout=100
 # 前端需要转成静态文件
 # 创建的反向代理站点配置文件路径：/www/server/panel/vhost/nginx
 # 配置反向代理时，前端静态文件的配置方法和后端动态进程配置的方法不同
