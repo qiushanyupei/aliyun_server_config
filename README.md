@@ -22,5 +22,8 @@ location /subjects {
         proxy_set_header X-Real-IP $remote_addr;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
     }
-
+# 可以配置控制最大连接时间和响应时间
+proxy_connect_timeout 60s;
+proxy_send_timeout 600s;
+proxy_read_timeout 3600s;
 # 数据库root有自己的密码，要改对应后端数据库配置
