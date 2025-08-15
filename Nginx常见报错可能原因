@@ -1,0 +1,2 @@
+nginx的403 forbidden：nginx应用关闭，所以拒绝访问
+500 Internal Server Error:对应路径下没有相应文件资源或者没有对应路径
